@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css?family=Bitter:400,700|Fredericka+the+Great&display=swap');
+
+.galeria{
+    margin-top: 45px; 
+}
+
+.galeria .titulo-grupo{ 
+    font-size: 1.8em;    
+}
+
+.img-galeria{
+    object-fit: cover;
+    margin-bottom: 20px;
+    cursor: pointer; 
+    transition: all 0.3s;
+}
+
+.img-galeria:hover{
+    transform: scale(1.05);
+}
+
+.img-galeria-grande{
+    height: 400px;
+}
+
+.img-galeria-chica{
+    height: 200px;
+}
+
+
+
+
+
+
+

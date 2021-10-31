@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=yes, initial-scale=1.0, maximum-scale=3.0, minimum-scale=1.0">
+    <title> </title>
+    <script src="https://kit.fontawesome.com/617e8b0e0e.js"></script>
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/contactos.css">
+  </head>
+   
+   
+  <body>
+    <header class="headerprincipal">
+        <nav class="nav-principal">
+           <div class="contenedor contenedor-flex">
+               <span class="icon-menu" id="btn-Menu"><i class="fas fa-bars icon-bar"></i>
+               </span>
+               <div  class="contenedor-logo">
+                   <h1 class="logo"><a class="logo-link" href="index.html">Shiatzu Zen</a></h1>
+               </div>
+               <ul class="menu" id="menu">
+                   <li class="menu-item"><a class="menu-link" href="index.html">Inicio</a></li>
+                   <li class="menu-item"><a class="menu-link" href="galeria.html">Galería</a></li>
+                   <li class="menu-item"><a class="menu-link menu-link-selec" href="contacto.html">Contacto</a></li>
+               </ul>
+               <div class="social-icon">
+                  <a class="social-icon-link" href="https://www.facebook.com/Masaje-Shiatsu-Zen-Buenos-Aires-185367878981068"><i class="icon-icon fab fa-facebook-square"></i></a>
+                  <a class="social-icon-link" href="https://www.instagram.com/pablo_inari/"><i class="icon-icon fab fa-instagram"></i></a>                                  
+               </div>             
+           </div>      
+        </nav>       
+    </header>
+
+   <section class="banner">
+       <img class="img-banner" src="imagenes/fondos/hands-g194427b17_1920.jpg">
+       <div class="contenido-banner"> Shiatzu Zen<br>Pablo Gonzalez</div>
+   </section>
+
+
+  <main class="main">
+     <section class="grupo contactos">
+      <h2 class="titulo-grupo">Contactate</h2>
+      <div class="contenedor contenedor-flex">
+         <div class="columna-50 info-contacto">
+            <h4 class="titulo-columna">Información de Contacto</h4>
+            <p class="desc-columna">Esperamos que disfrutes la expecia en nuestra pagina y en encuentres todo los que estas buscando.<br>
+            Si tenes alguna pregunta... Contactanos, estamos para ayudarte.</p>
+            <p class="desc-columna icon-celular"><i class="icon-icon fas fa-phone"></i>011-15-3064-6089</p>
+            <p class="desc-columna icon-mail"><i class="fas fa-envelope icon-mail"></i>atencion@veterishop.com</p>
+            <p class="desc-columna icon-lugar"><i class="fas fa-map-marker-alt icon-lugar"></i>Bucarelli 1027 Parque Chas CABA</p>
+            <iframe class="desc-columna" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3284.5812130165923!2d-58.476225766069476!3d-34.58946172231349!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcb612253b3f85%3A0xa76dd878e47d3c3f!2sBucarelli%201027%2C%20C1427BDC%20CABA!5e0!3m2!1ses-419!2sar!4v1635548762549!5m2!1ses-419!2sar" width="210" height="200" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+             
+            <div class="social-icon">
+                <a class="social-icon-link" href="https://www.facebook.com/Masaje-Shiatsu-Zen-Buenos-Aires-185367878981068"><span class="icon-facebook"><i class="fab fa-facebook-square"></i></span></a>
+                <a class="social-icon-link" href="https://www.instagram.com/pablo_inari/"><span class="icon-Instagram"><i class="fab fa-instagram"></i></span></a>                
+            </div>
+         </div>
+         
+            
+            <form action="" method="" class="columna columna-50 formulario">
+            
+               <label class="formulario-label" for="nombre">Nombre</label>
+               <input type="text" name="nombre" id="nombre" class="formulario-input-txt" maxlength="20" pattern="[A-Z a-z]{2,20}" 
+               title="Escriba su nombre" placeholder="Introduzca entre 2 y 20 caracteres" required>
+                         
+               <label class="formulario-label" for="email">Email</label>
+               <input type="email" name="email" id="email" class="formulario-input-txt" title="Complete el email" placeholder="ej: juanperez@gmail.com" required>
+                              
+               <label class="formulario-label" for="telefono">Celular (cod. area sin 0 y sin 15)</label>
+               <input type="tel" name="telefono" id="telefono"  class="formulario-input-txt" title="Escriba su telefono" placeholder="Ej: 1162482950" maxlength="10" required>
+                              
+                <label class="formulario-label" for="mensaje">Mensaje</label>
+                <textarea type="textarea"  name="mensaje" id="mensaje" cols="30" rows="10"  class="formulario-textarea" minlength="5" maxlength="450" title="Escriba su mensaje"  required></textarea>
+                
+                <p id="mensaje_error"></p>
+                <input type="submit" value="enviar" id="enviar" class="btn formulario-btn">
+         </form>    
+      </div>
+      
+     
+      
+     </section>
+  </main>
+  
+    <footer class="footer-principal">
+        <div class="contenedor contenedor-flex">
+            <div class="columna columna-33">
+               <h2 class="titulo-columna">¿Por qué elegirme?</h2>
+               <p class="desc-columna">Porque estoy aqui para acompañarte <br>en el cuidado integlar de tu cuerpo.<br>Tanto cuando lo requeris de manera urgente, <br>como cuando solo tenes alguna simple duda.
+               </p>
+            </div>
+            <div class="columna columna-33">
+                <h2 class="titulo-columna">Contáctanos</h2>
+                <p class="desc-columna"><i class="icon-icon fas fa-phone"></i>011-15-3064-6089</p>
+                <p class="desc-columna"><i class="icon-icon far fa-envelope"></i>eimpablogonzalez@gmail.com</p>
+            </div>
+            <div class="columna columna-33">
+                <h2 class="titulo-columna">Redes Sociales</h2>
+                <p class="desc-columna"><a class="link" href="https://www.instagram.com/pablo_inari/"><i class="icon-icon fab fa-instagram"></i>pablo_inari</a></p>
+                <p class="desc-columna"><a class="link" href=""><i class="icon-icon fab fa-whatsapp"></i>+5491130646089</a></p>
+                <p class="desc-columna"><a class="link" href="https://www.facebook.com/Masaje-Shiatsu-Zen-Buenos-Aires-185367878981068"><i class="icon-icon fab fa-facebook-square"></i>Masaje Shiatsu Zen Buenos Aires</a></p>
+            </div>                             
+        </div>
+        <div class="columna">
+            <p class="copy"><i class="far fa-copyright"></i>Copyright</p> 
+        </div>        
+    </footer>
+
+   <script src="js/menu.js"></script>     
+   <script src="js/valida.js"></script> 
+  </body>
+</html>
